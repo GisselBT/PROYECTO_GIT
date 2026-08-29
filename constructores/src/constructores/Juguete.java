@@ -20,5 +20,20 @@ public class Juguete
     {
     this.precio=precio;
     }
+     public Juguete(String nombre, int cantidad)
+    {
+    this.nombre = this.nombre;
+    this.cantidad = cantidad;
+    }
+    public Juguete(String nombre, double precio)
+    {
+    this.nombre = nombre;
+    this.precio = precio;
+    }
+    public Juguete(int cantidad, double precio)
+    {
+    this.cantidad = cantidad;
+    this.precio = precio;
+    }
     
 }
