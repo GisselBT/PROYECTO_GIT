@@ -4,10 +4,10 @@ package constructores;
 
 public class Juguete 
 {
-     private String nombre = "";
+    private String nombre = "";
     private int cantidad = 0;
     private double precio =0.0;
-
+    
     public Juguete(String nombre)
     {
     this.nombre = nombre;
@@ -20,9 +20,9 @@ public class Juguete
     {
     this.precio=precio;
     }
-     public Juguete(String nombre, int cantidad)
+    public Juguete(String nombre, int cantidad)
     {
-    this.nombre = this.nombre;
+    this.nombre = nombre;
     this.cantidad = cantidad;
     }
     public Juguete(String nombre, double precio)
@@ -35,11 +35,10 @@ public class Juguete
     this.cantidad = cantidad;
     this.precio = precio;
     }
-     public Juguete(String nombre,int cantidad,double precio )
+    public Juguete(String nombre,int cantidad,double precio )
     {
     this.nombre =nombre;
     this.cantidad = cantidad;
     this.precio = precio;
-    } 
-    
+    }    
 }
