@@ -1,16 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package proyectogs;
 
-/**
- *
- * @author admin
- */
-public class PROFESOR {
 
-    String materia = "";  
-    double salario = 0.0;
-    
+public class PROFESOR extends PERSONA
+{
+  String materia = "";  
+  double salario = 0.0;
+  
+  public void setMateria()
+  {
+  this.materia = materia;
+  }
+  public double getMateria()
+  {
+  return salario;a
+  }
+  public void setSalario()
+  {
+  this.salario = salario;
+  }
+  public double getSalario()
+  {
+  return salario;
+  }
 }
