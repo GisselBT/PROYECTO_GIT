@@ -9,5 +9,8 @@ package proyectogs;
  * @author admin
  */
 public class PROFESOR {
+
+    String materia = "";  
+    double salario = 0.0;
     
 }
