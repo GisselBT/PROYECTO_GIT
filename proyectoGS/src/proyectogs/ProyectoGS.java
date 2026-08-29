@@ -25,6 +25,12 @@ public class ProyectoGS {
       profesor1.setEdad(46);
       profesor1.setMateria("Marketing Digital");
       profesor1.setSalario(24.000);
+
+       System.out.println("El nombre del profesor es: " + profesor1.getNombre());
+        System.out.println("El documneto del profesor es: " + profesor1.getDocumento());
+        System.out.println("La edad del profesor es: " + profesor1.getEdad());
+        System.out.println("La materia que digta el profesor es: "+profesor1.getMateria());
+        System.out.println("El salario del profesor es: "+ profesor1.getSalario());
       
     }
     
