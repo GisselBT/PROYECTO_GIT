@@ -8,6 +8,10 @@ package constructores;
  *
  * @author admin
  */
-public class Videojugos {
+public class Videojugos 
+{
+     private String nombre = "";
+    private int dificultad = 0;
+    private double precio =0.0;
     
 }
