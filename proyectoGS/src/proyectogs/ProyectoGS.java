@@ -13,6 +13,11 @@ public class ProyectoGS {
       est1.setDocumento("12345");
       est1.setEdad(12);
       est1.setCarrera("Veterinaria");
+
+       System.out.println("El nombre del estudiante es: " +est1.getNombre());
+       System.out.println("La edad del estudiante: "+est1.getEdad());
+       System.out.println("El docuemneto del estudainte es: "+est1.getDocumento());
+       System.out.println("La carrera del estudainte es: "+est1.getCarrera());
       
       PROFESOR profesor1 = new PROFESOR();
        profesor1.setNombre("Molly");
